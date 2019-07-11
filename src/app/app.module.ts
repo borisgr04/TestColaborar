@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { PracticaGitComponent } from './practica-git/practica-git.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PracticaGitComponent
   ],
   imports: [
     BrowserModule,
